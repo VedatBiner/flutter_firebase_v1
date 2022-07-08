@@ -27,11 +27,14 @@ main.dart içine :
 import 'package:firebase_database/firebase_database.dart'; 
 ekleyelim.
 
-FirebaseDatabase database = FirebaseDatabase.instance; ekleyelim  
+FirebaseDatabase database = FirebaseDatabase.instance; ekleyelim
+
+Buradan devam : https://firebase.google.com/docs/database/flutter/start
+
 <BR>
 
 ![ScreenShot](/screen_shots/img-01.png)
 ![ScreenShot](/screen_shots/img-02.png)
 
 
-Buradan devam : https://firebase.google.com/docs/database/flutter/start
+
