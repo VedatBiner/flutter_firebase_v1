@@ -30,5 +30,8 @@ ekleyelim.
 FirebaseDatabase database = FirebaseDatabase.instance;
 ekleyelim
 
+![ScreenShot](/screen_shots/img-01.png)
+![ScreenShot](/screen_shots/img-02.png)
+
 
 Buradan devam : https://firebase.google.com/docs/database/flutter/start

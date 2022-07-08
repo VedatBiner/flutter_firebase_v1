@@ -66,7 +66,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
           ElevatedButton(
             onPressed: () {
-              print("Bilgi Giriş Sayfası açılıyor.");
+              print("Bilgi Giriş Sayfası seçildi");
               Navigator.of(context).push(
                 MaterialPageRoute(
                   builder: (context) {

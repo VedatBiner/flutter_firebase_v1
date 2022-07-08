@@ -41,16 +41,17 @@ class _InfoPageState extends State<InfoPage> {
                     child: TextFormField(
                       decoration: const InputDecoration(
                         labelText: "Adı",
+                        hintText: "Kullanıcının adını giriniz ...",
                         fillColor: Colors.white,
                         focusedBorder: OutlineInputBorder(
                           borderSide: BorderSide(
-                            color: Colors.blue,
+                            color: Colors.blueAccent,
                             width:2.0,
                           ),
                         ),
                       ),
-                      onChanged: (String urunAdi){
-                        //urunAdiAdiAl(urunAdi);
+                      onChanged: (String firstName){
+                        // AddData(firstName);
                       },
                     ),
                   ),
@@ -59,10 +60,11 @@ class _InfoPageState extends State<InfoPage> {
                     child: TextFormField(
                       decoration: const InputDecoration(
                         labelText: "Soyadı",
+                        hintText: "Kullanıcının soyadını giriniz ...",
                         fillColor: Colors.white,
                         focusedBorder: OutlineInputBorder(
                           borderSide: BorderSide(
-                            color: Colors.blue,
+                            color: Colors.blueAccent,
                             width:2.0,
                           ),
                         ),
@@ -77,10 +79,11 @@ class _InfoPageState extends State<InfoPage> {
                     child: TextFormField(
                       decoration: const InputDecoration(
                         labelText: "Mail Adresi",
+                        hintText: "Kullanıcının mail adresini giriniz ...",
                         fillColor: Colors.white,
                         focusedBorder: OutlineInputBorder(
                           borderSide: BorderSide(
-                            color: Colors.blue,
+                            color: Colors.blueAccent,
                             width:2.0,
                           ),
                         ),
@@ -107,7 +110,8 @@ class _InfoPageState extends State<InfoPage> {
                             ],
                           ),
                           onPressed: () {
-                              // veriEkle();
+                            print("Veri Ekleme seçildi");
+                            // VeriEkle();
                             },
                         ),
                         ElevatedButton(
@@ -122,6 +126,7 @@ class _InfoPageState extends State<InfoPage> {
                             ],
                           ),
                           onPressed: () {
+                            print("Veri Okuma seçildi");
                             // veriOku();
                           },
                         ),
@@ -137,6 +142,7 @@ class _InfoPageState extends State<InfoPage> {
                             ],
                           ),
                           onPressed: () {
+                            print("Veri Güncelleme seçildi");
                             // veriGuncelle();
                           },
                         ),
@@ -152,6 +158,7 @@ class _InfoPageState extends State<InfoPage> {
                             ],
                           ),
                           onPressed: () {
+                            print("Veri Silme seçildi");
                             // veriSil();
                           },
                         ),
@@ -163,7 +170,7 @@ class _InfoPageState extends State<InfoPage> {
             ),
           ),
         ),
-          ),
-        );
+      ),
+    );
   }
 }
